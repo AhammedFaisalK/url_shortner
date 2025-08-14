@@ -21,7 +21,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    # 'shortener',
+    'shortener',
 ]
 
 MIDDLEWARE = [
@@ -108,4 +108,6 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',
     ]
+    ,
+    'DEFAULT_AUTHENTICATION_CLASSES': [],
 }
